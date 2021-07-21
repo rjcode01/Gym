@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM FORM</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('https://cdn.pixabay.com/photo/2018/03/23/11/57/girl-3253532_1280.jpg');
+            /* background: url('https://cdn.pixabay.com/photo/2015/10/12/15/09/person-984236_1280.jpg'); */
+        }
+
+        .first {
+            color: white;
+            display: inline-block;
+            /* border: 3px solid red; */
+            position: absolute;
+            left: 22px;
+            top: 20px;
+
+        }
+
+        .first img {
+            width: 70px;
+            filter: invert(100%);
+        }
+
+        .first div {
+            text-align: center;
+        }
+
+        .second {
+            color: white;
+            display: block;
+            width: 37%;
+            top: 17px;
+            /* border: 3px solid blue; */
+            margin: 20px auto;
+        }
+
+        .third {
+            color: white;
+            display: inline-block;
+            /* border: 3px solid green; */
+            position: absolute;
+            right: 22px;
+            top: 20px;
+        }
+
+        .btn {
+            font-family: 'PT Serif', serif;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            /* left: 222px; */
+            /* width: 207px; */
+            /* position: absolute; */
+            padding: 4px 14px;
+            border: 2px solid rgb(52, 49, 49);
+            font-size: 20px;
+            border-radius: 10px;
+        }
+
+        .btn:hover {
+            color: rgb(181, 173, 173);
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: rgb(251, 251, 251);
+            text-decoration: none;
+            padding: 33px 12px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(137, 132, 132);
+        }
+
+        .cnt {
+            border: 2px solid white;
+            margin: 162px 87px;
+            padding: 54px;
+            width: 26%;
+            border-radius: 28px;
+        }
+
+        .fg {
+            font-family: 'PT Serif', serif;
+            text-align: center;
+            display: block;
+            width: 376px;
+            padding: 5px;
+            border: 2px solid #5054da;
+            margin: 9px auto 9px;
+            font-size: 25px;
+            border-radius: 8px;
+
+        }
+
+        .cnt h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .sbt {
+
+            font-family: 'PT Serif', serif;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            left: 181px;
+            width: 295px;
+            position: absolute;
+            padding: 4px 14px;
+            border: 2px solid rgb(52, 49, 49);
+            font-size: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="first">
+            <img src="https://i.pinimg.com/originals/61/16/22/61162274bfd827baaf6062087cdee0e0.png" alt="">
+            <div>Rj Fitness</div>
+        </div>
+        <div class="second">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Fitness Center</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+        <div class="third">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="cnt">
+        <h1>Join the best gym of Delhi</h1>
+        <form action="noaction.php">
+            <div class="fg">
+                <input type="text" name="" placeholder="Enter Your name">
+            </div>
+            <div class="fg">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="fg">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="fg">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <button class="sbt">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
